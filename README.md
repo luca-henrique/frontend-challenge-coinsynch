@@ -1,9 +1,3 @@
-<h1 align="center">
-  <img alt="CoinSync" title="CoinSync" src=".github/logo-coinsync.png" width="200" />
-</h1>
-
-![Layout do eduick](./.github/capa-coinsync.png)
-
 <p align="center">
   <a href="#sobre-o-desafio">Sobre o desafio</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
@@ -18,7 +12,6 @@ Este desafio consiste no desenvolvimento da interface de uma landing page e uma 
 - Projeto: https://www.figma.com/file/B8scopEM014WR4Oh58UaDb/%5BEduSynch%5D--Front-End-Test
 - Landing Page: https://www.figma.com/file/B8scopEM014WR4Oh58UaDb/%5BEduSynch%5D--Front-End-Test?node-id=1%3A1741
 - Dashboard: https://www.figma.com/file/B8scopEM014WR4Oh58UaDb/%5BEduSynch%5D--Front-End-Test?node-id=1%3A2555
-- Protótipo: https://www.figma.com/proto/B8scopEM014WR4Oh58UaDb/%5BEduSynch%5D--Front-End-Test?node-id=1%3A9253&scaling=min-zoom&page-id=1%3A9229&starting-point-node-id=1%3A9253&hide-ui=1
 
 Deverá ser utilizado ReactJS (opcional a utilização de algum framework como NextJS) para desenvolvimento da landing e dashboard;
 
@@ -51,7 +44,6 @@ Você pode visualizar o layout do projeto através desse <a href="https://www.fi
   - Os inputs Passwords e Confirm Password deverão ser iguais para se tornarem válidos;
   - Ao clicar no link "Already have and account? Sign in to CoinSynch" a aplicação deverá abrir o Dialog de "Sign in" no lugar do "Sign Up";
 
-
 #### Dashboard:
 
 - O topo da página deverá ter as informações do usuário (Avatar e Nome, esses dados deverão ser consumidos da API Rest)
@@ -60,7 +52,7 @@ Você pode visualizar o layout do projeto através desse <a href="https://www.fi
 - Conteúdo deve ser exibido com os dados consumidos da API;
 - O valor exibido no bloco "Balance in US$" deverá ser formatado;
 - O bloco "Daily Variation" deverá mostrar um gráfico com dados consumidos da API;
-- O bloco  "My Wallet" deverá mostrar a lista com dados consumidos da API;
+- O bloco "My Wallet" deverá mostrar a lista com dados consumidos da API;
 - O botão "Add Crypto" deverá exibir o dialog "Add Crypto" com um select consumindo dados da API;
 - Ao clicar no botão "Add Crypto" a listagem no bloco "My Wallet" deverá ser atualizado;
 - Ao clicar no ícone da listagem do bloco "My Wallet", deverá ser exibido o dialog de "Transfer Crypto";
